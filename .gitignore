@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Other
+*.idea
+Would skip repository cmake-build-debug/googletest-src
+cmake-build-debug/cmake_install.cmake
+cmake-build-debug/CMakeCache.txt
+cmake-build-debug/CMakeFiles
+cmake-build-debug/googletest-build
+cmake-build-debug/googletest-download
+cmake-build-debug/Makefile
+cmake-build-debug/Project.cbp
+cmake-build-debug/TemplateAssignment.cbp
+cmake-build-debug/TemplateCpp.cbp
