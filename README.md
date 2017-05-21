@@ -1,4 +1,2 @@
 # TemplateCpp
 WU cpp certificate
-
-
