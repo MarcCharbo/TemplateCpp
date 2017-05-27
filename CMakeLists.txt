@@ -26,7 +26,7 @@ add_subdirectory(${CMAKE_BINARY_DIR}/googletest-src
 
 
 # Now simply link against gtest or gtest_main as needed. Eg
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp MyCollection.cpp MyCollection.h)
 add_executable(TemplateCpp ${SOURCE_FILES})
 target_link_libraries(TemplateCpp gtest_main)
 add_test(NAME example_test COMMAND TemplateAssignment)
