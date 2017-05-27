@@ -36,5 +36,4 @@ private:
   const char * _name;
 };
 
-
 #endif //TEMPLATECPP_CIRCLE_H

@@ -6,7 +6,6 @@
 #define TEMPLATECPP_MYCOLLECTION_H
 
 #include "Circle.h"
-
 #include <vector>
 #include <iterator>
 #include <fstream>
@@ -54,8 +53,5 @@ public:
 private:
   std::vector<T> _collection;
 };
-
-
-
 
 #endif //TEMPLATECPP_MYCOLLECTION_H
