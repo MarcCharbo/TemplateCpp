@@ -5,6 +5,8 @@
 #ifndef TEMPLATECPP_MYCOLLECTION_H
 #define TEMPLATECPP_MYCOLLECTION_H
 
+#include "Circle.h"
+
 #include <vector>
 #include <iterator>
 #include <fstream>

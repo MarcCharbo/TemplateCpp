@@ -1,5 +1,6 @@
 #include "gtest/gtest.h"
 #include "MyCollection.h"
+#include "Circle.h"
 
 template <typename T>
 T fact (T n)
@@ -37,6 +38,16 @@ int main() {
   std::cout<<vector1.Get(1)<<std::endl;
 
   MyCollection<double> vector2{};
+
+  const char* name = "test";
+  Circle c1(2,4,6,name);
+
+  MyCollection<Circle> vector3{};
+  vector3.Add(c1);
+  std::cout<<vector3.IsEmpty()<<std::endl;
+  std::cout<<vector3.Count()<<std::endl;
+  vector3.PrintAll(std::cout);
+  std::cout<<std::endl;
 
 //  TEST(basic_check,test_eq){
 //    EXPECT_EQ(1,0);
